@@ -1,0 +1,86 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 4.7rem;
+    text-shadow: 2px 2px 0 tomato;
+    word-spacing: 1.5rem;
+}
+
+.hero {
+    background: url(../img/jeremy-thomas-E0AHdsENmDg-unsplash_i7wywp_c_scale\,w_320.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.tagline {
+    font-size: 2.3rem;
+    font-weight: 300;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1.5rem;
+}
+
+@media screen and (min-width: 720px) {
+    .hero {
+        background: url(../img/jeremy-thomas-E0AHdsENmDg-unsplash_i7wywp_c_scale\,w_735.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    .tagline {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .hero {
+        background: url(../img/jeremy-thomas-E0AHdsENmDg-unsplash_i7wywp_c_scale\,w_1307.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .hero {
+        background: url(../img/jeremy-thomas-E0AHdsENmDg-unsplash_i7wywp_c_scale\,w_1440.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 10rem;
+    }
+
+    .tagline {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (min-width: 2200px) {
+    h1 {
+        font-size: 16rem;
+    }
+
+    .tagline {
+        font-size: 7rem;
+    }
+}
